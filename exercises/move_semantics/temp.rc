@@ -1,0 +1,11 @@
+fn main(){
+	let s1 = String::from("hello");
+	let s2 = s1.clone();
+	println!("string is {}", s1);
+	let a = String::from("hello world");
+	let a1 = &a;
+	println!("s is {}", a1);
+//	let a3 = a;
+//	println!("s is {}", a1);
+//	println!("s is {}", a3);	
+}

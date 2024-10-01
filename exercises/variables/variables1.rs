@@ -8,5 +8,7 @@
 
 fn main() {
     let x = 5;
+    let y = 6;
+    println!("y has the value {}",y);
     println!("x has the value {}", x);
 }
